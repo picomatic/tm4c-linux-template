@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}",
+            "executable": "./bin/main.elf",
+            "name": "Debug (OpenOCD)",
+            "device": "tm4c123gxl",
+            "configFiles": [
+                "board/ek-tm4c123gxl.cfg"
+            ]
+        }
+    ]
+}

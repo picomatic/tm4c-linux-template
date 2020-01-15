@@ -55,6 +55,7 @@ CFLAGS += -mfloat-abi=softfp -Os -MD -std=c99 -c
 
 #LINKER FLAGS
 LDFLAGS = -T $(LD_SCRIPT) -e Reset_Handler 
+LDFLAGS += -pthread -static -L./ex_lib -ldriver
 
 
 
