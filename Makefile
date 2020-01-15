@@ -23,6 +23,7 @@
 
 # PROJECT: name of the output file
 PROJECT = main
+MCU = TM4C123GH6PM
 #DEV : your TM4C123GH6PM when connected to your system,usually will be /dev/ttyACM0
 DEV = /dev/ttyACM0
 # SRCS: all source files from src directory
